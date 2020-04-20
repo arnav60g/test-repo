@@ -10,3 +10,5 @@ $driveletter = $partitions[$partitions.Length - 1].DriveLetter
 
 #Format New Disk
 Format-Volume –DriveLetter $driveletter -FileSystem NTFS 
+
+exit 0
